@@ -9,7 +9,7 @@
         <div class="col">
           <div class="for-git">
             <i class="fab fa-github fa-9x"></i>
-            <div class="list">
+            <div class="list" onclick="">
               <ul>
                 <li>
                   <a href="https://github.com/ivanste1987/task-app">Todo App</a>
@@ -26,7 +26,7 @@
         <div class="col">
           <div class="vanila-js">
             <i class="fab fa-js fa-9x"></i>
-            <div class="list">
+            <div class="list" onclick="">
               <ul>
                 <li>
                   <a href="https://www.a101studio.com/">Architectural Studio</a>
@@ -48,7 +48,7 @@
         <div class="col">
           <div class="wordpress">
             <i class="fab fa-wordpress fa-9x"></i>
-            <div class="list">
+            <div class="list" onclick="">
               <ul>
                 <li>
                   <a href="https://nlptransfer.rs/">NLP Transfer</a>

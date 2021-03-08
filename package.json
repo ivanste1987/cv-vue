@@ -24,5 +24,17 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "description": "http://www.ivanste.name/\r ## Project setup\r ```\r npm install\r ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanste1987/cv-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanste1987/cv-vue/issues"
+  },
+  "homepage": "https://github.com/ivanste1987/cv-vue#readme"
 }
