@@ -1,6 +1,6 @@
 # cv
 #You can see CV page on next link 
-https://ivanste.name
+http://www.ivanste.name/
 ## Project setup
 ```
 npm install
