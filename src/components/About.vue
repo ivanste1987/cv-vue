@@ -4,10 +4,7 @@
       <div class="row">
         <div class="img-container">
           <figure>
-            <img
-              src="https://via.placeholder.com/150x250"
-              alt="Profile picture"
-            />
+            <img src="@/assets/images/profile-img.png" alt="Profile picture" />
           </figure>
         </div>
       </div>
@@ -16,14 +13,13 @@
           <h3>About Me</h3>
           <p>{{ aboutText }}</p>
           <div class="buttos-container">
-            <a :href="downloadCvPath" :download="cvFile" class="button">Download CV</a>
-        
+            <a :href="downloadCvPath" :download="cvFile" class="button"
+              >Download CV</a
+            >
           </div>
         </div>
       </div>
-      
     </div>
-   
   </div>
 </template>
 
@@ -33,11 +29,10 @@ export default {
   data() {
     return {
       aboutText: dbdata.about.text,
-      downloadCvPath: '/pdf/Ivan_Stefanovic.pdf' ,
-      cvFile: 'Ivan_Stefanovic.pdf'
+      downloadCvPath: "/pdf/Ivan_Stefanovic.pdf",
+      cvFile: "Ivan_Stefanovic.pdf",
     };
   },
- 
 };
 </script>
 
@@ -105,7 +100,7 @@ $yellow: #ffb633;
       figure {
         position: relative;
         width: 400px;
-        height: 500px;
+        height: 600px;
         margin: 0 auto;
         z-index: 0;
         @media screen and(max-width: 520px) {
@@ -115,6 +110,7 @@ $yellow: #ffb633;
         }
 
         img {
+          position: relative;
           width: 100%;
           height: 100%;
           transition: all 0.5s ease;
@@ -131,15 +127,15 @@ $yellow: #ffb633;
     .buttos-container {
       text-align: left;
       z-index: 2;
-      
+
       @media screen and(max-width: 520px) {
         button:nth-child(1) {
           display: none;
         }
       }
     }
-    p{
-      margin-bottom:3rem; 
+    p {
+      margin-bottom: 3rem;
     }
     h3::before {
       content: "";
@@ -165,7 +161,7 @@ $yellow: #ffb633;
       color: $terracotta;
       border: 1px solid $terracotta;
       transition: all 0.35s ease;
-      
+
       &:hover {
         color: $fontColor;
         background: $terracotta;
